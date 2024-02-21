@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "https://github.com/SainiAditya1/Richpanel",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
