@@ -1,0 +1,42 @@
+[debug] [2024-02-21T07:21:28.726Z] ----------------------------------------------------------------------
+[debug] [2024-02-21T07:21:28.728Z] Command:       /home/aditya/.nvm/versions/node/v18.18.0/bin/node /home/aditya/.nvm/versions/node/v18.18.0/bin/firebase init hosting
+[debug] [2024-02-21T07:21:28.729Z] CLI Version:   13.3.0
+[debug] [2024-02-21T07:21:28.729Z] Platform:      linux
+[debug] [2024-02-21T07:21:28.729Z] Node Version:  v18.18.0
+[debug] [2024-02-21T07:21:28.729Z] Time:          Wed Feb 21 2024 12:51:28 GMT+0530 (India Standard Time)
+[debug] [2024-02-21T07:21:28.729Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-21T07:21:28.734Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-21T07:21:28.735Z] > authorizing via signed-in user (yttt3984@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/aditya/Richpanel-Assignment
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-02-21T07:21:39.167Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-02-21T07:21:40.179Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-02-21T07:21:40.179Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project richpanel-b977a (richpanel) 
+[info] 
+=== Hosting Setup
+[debug] [2024-02-21T07:21:41.457Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/richpanel-b977a [none]
+[debug] [2024-02-21T07:21:42.622Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/richpanel-b977a 200
+[debug] [2024-02-21T07:21:42.622Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/richpanel-b977a {"projectId":"richpanel-b977a","projectNumber":"508473436991","displayName":"richpanel","name":"projects/richpanel-b977a","resources":{"hostingSite":"richpanel-b977a"},"state":"ACTIVE","etag":"1_26f5b2f9-e7ea-4ee7-b0d6-8b8fbef17ab9"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
